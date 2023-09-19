@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',  
     'corsheaders',
+    'rest_framework',  
     'blog'
 ]
 
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://yourfrontenddomain.com",
 ]
-ALLOWED_HOSTS = ['yourdomain.com', 'www.yourdomain.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://py-blog-production.up.railway.app']
 
 ROOT_URLCONF = 'api.urls'
 
